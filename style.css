@@ -1,0 +1,68 @@
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.head{
+    background-color: blue;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    padding-top: 10px;
+}
+
+.nav-list{
+    list-style: none;
+    flex-grow: 1;
+    font-size: xx-large;
+    align-content: center;
+}
+
+.viewport{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.viewport-img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.disc-flex,.ser-img{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ser-gpu,.service{
+    height: 240px;
+    width: 200px;
+    flex-grow: 1;
+}
+
+.ser-gpu{
+    padding: 20px;
+}
+
+.product{
+    background-color:darkgray;
+}
+
+.product-img{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    list-style: none;
+}
